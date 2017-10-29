@@ -1,0 +1,16 @@
+<meta>
+    <info name="Consistent Object Deletion" author="rootcause" type="script" />
+
+    <!-- Files -->
+    <script src="Script.cs" type="server" lang="csharp" />
+
+    <!-- Exported Methods -->
+    <export function="registerDeletion" />
+    <export function="removeDeletion" />
+    <export function="getDeletionIDs" />
+
+    <!-- Settings -->
+    <settings>
+        <setting name="colShapeRadius" value="25" default="25" />
+    </settings>
+</meta>
